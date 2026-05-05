@@ -1,0 +1,9 @@
+# Build and package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Compiled Python files
+__pycache__/
+*.pyc

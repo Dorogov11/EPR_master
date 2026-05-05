@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EPR_master"
+version = "0.1.1"
+description = "Convenient machinery for calculating EM design parameters (such as coupling g) from pyEPR analysis and their formatted output."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+  {name = "Aleksandr Dorogov", email = "dorogov@u.nus.edu"}
+]
+keywords = ["python", "quantum", "hfss", "pyepr"] # Add relevant keywords
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "numpy>=1.21.0",
+  "pandas",
+  "requests"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Dorogov11/EPR_master"
+"Bug Tracker" = "https://github.com/Dorogov11/EPR_master/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
