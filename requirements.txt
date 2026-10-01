@@ -13,8 +13,7 @@ dispatch==2.0.6
 Django==3.2.11
 djangorestframework==3.12.2
 docopt==0.6.2
-# Editable install with no version control (EPR_master==0.1.0)
--e c:\users\qcrew\anaconda3\envs\epr_master-main
+-e git+https://github.com/Dorogov11/EPR_master@f348db4213fd35a91692f102573313672b39674d#egg=EPR_master
 executing==2.2.1
 flexcache==0.3
 flexparser==0.4
