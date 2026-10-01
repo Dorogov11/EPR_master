@@ -1,4 +1,11 @@
 This code contains convenient machinery for calculating some design parameters (such as coupling g) from pyEPR analysis and their formatted output.
+
+Installation guide:
+1. Download the recent Python version (e.g. 3.14.8) and include it in your Windows Path.
+2. Open the terminal and run the following command: git clone https://github.com/Dorogov11/EPR_master.
+3. Open the cloned folder and run (double-click) setup_EPR_master_env.bat. The virtual environment with required dependencies will be created automatically.
+4. Open the folder EPR_master in Visual Studio Code, connect to the newly created virtual environment. 
+Now you are able to use the EPR code, following the template notebook.
 © 2026 Aleksandr Dorogov
 
 Class needs to be aware of modes corresponding to qubits. There are multiple options to provide it. In the order of priority (e.g. if 1) and 2) are given, 1) will be used):
