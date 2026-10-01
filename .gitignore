@@ -7,3 +7,6 @@ dist/
 # Compiled Python files
 __pycache__/
 *.pyc
+
+.EPR_master/
+EPR_master_env/
